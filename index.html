@@ -1,44 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Demo</title>
-  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f3f6fc;
-    }
-
-    df-messenger {
-      z-index: 999;
-      --df-messenger-font-color: #000;
-      --df-messenger-font-family: Google Sans;
-      --df-messenger-chat-background: #f3f6fc;
-      --df-messenger-message-user-background: #d3e3fd;
-      --df-messenger-message-bot-background: #fff;
-      width: 50%; /* Half the page horizontally */
-      max-width: 800px; /* Optional limit for very wide screens */
-      min-width: 300px; /* Optional minimum size */
-      height: 100%; /* Take full vertical height */
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Agent</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 20px;
+            text-align: center;
+        }
+        p {
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
-  <df-messenger
-    project-id="genai-410716"
-    agent-id="0c579c22-5047-442f-8944-64686277d904"
-    language-code="en"
-    max-query-length="-1">
-    <df-messenger-chat
-      chat-title="Demo Agent Using HICOOL Manual Data">
-    </df-messenger-chat>
-  </df-messenger>
-
-  <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <p>I have created a demo agent using YC info which I found here <a href="https://www.ycombinator.com/about" target="_blank">https://www.ycombinator.com/about</a><br><br>
+    You can interact with the agent via phone call @ +1 (859) 242-7402</p>
 </body>
 </html>
